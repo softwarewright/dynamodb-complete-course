@@ -1,0 +1,22 @@
+{
+  "name": "02-DynamoDB-Basics",
+  "version": "1.0.0",
+  "description": "- Fully managed, NoSQL Database service\r - Predictable, fully managed performance with seamless scalability\r - No visible servers\r - No practical storage limitations\r - Full resilient and highly available\r - Performance scales consistent, logical and linear way \r - Full and deep integration with AWS IAM - rich security model\r - Shares characteristics with Key,Value and Document Store DB's",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.656.0",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.11",
+    "@types/node": "^13.11.1",
+    "ts-node": "^8.8.2"
+  }
+}
